@@ -4,7 +4,7 @@ import Draggable from "./Draggable";
 function App() {
 	return (
 		<div className="relative h-full">
-			<Battery />
+			<Battery percentage={25} />
 			<Draggable />
 		</div>
 	);
