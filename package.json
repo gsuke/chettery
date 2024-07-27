@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"check": "biome check frontend/src/",
+		"lint": "biome lint --write frontend/src/",
+		"format": "biome check --write frontend/src/"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3"
+	}
+}
