@@ -4,10 +4,14 @@ go 1.21
 
 toolchain go1.22.5
 
-require github.com/wailsapp/wails/v2 v2.9.1
+require (
+	github.com/Code-Hex/battery v1.0.0
+	github.com/wailsapp/wails/v2 v2.9.1
+)
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
+	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect

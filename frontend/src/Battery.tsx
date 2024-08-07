@@ -27,6 +27,7 @@ function Battery(props: Props) {
 					}}
 				>
 					{hasBatteryError ? "???" : `${percentage}%`}
+					{/* {percentage}% */}
 				</div>
 			</div>
 
